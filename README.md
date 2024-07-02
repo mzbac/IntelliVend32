@@ -43,9 +43,9 @@ python main.py --input path/to/your/section32/pdf --output path/to/output/file.t
 Optional arguments:
 
 - `--model`: Specify the Nougat model to use (default: "mzbac/nougat-base-8bit-mlx")
-- `--temperature`: Set the temperature for text generation (default: 0.3)
-- `--top_p`: Set the top p value for text generation (default: 0.95)
-- `--repetition_penalty`: Set the repetition penalty for text generation (default: 1.2)
+- `--temperature`: Set the temperature for Nougat's text prediction (default: 0.3)
+- `--top_p`: Set the top-p value for Nougat's token sampling (default: 0.95)
+- `--repetition_penalty`: Set the repetition penalty for Nougat's output (default: 1.2)
 
 ## How it works
 
